@@ -1,12 +1,12 @@
 'use strict'
 
 // creating a base name for the mongodb
-const mongooseBaseName = 'fruitcakePets'
+const mongooseBaseName = 'coolpeasPets'
 
 // create the mongodb uri for development and test
 const database = {
-	development: `mongodb://localhost/${mongooseBaseName}-development`,
-	test: `mongodb://localhost/${mongooseBaseName}-test`,
+	development: `mongodb+srv://timms:notsofastbadguys@gaseiecremote0.j6ixp.mongodb.net/coolpeaspets?retryWrites=true&w=majority`,
+	test: `mongodb+srv://timms:notsofastbadguys@gaseiecremote0.j6ixp.mongodb.net/coolpeaspets?retryWrites=true&w=majority`,
 }
 
 // Identify if development environment is test or development
